@@ -20,6 +20,7 @@ flask-wtf = "*"
 bootstrap-flask = "*"
 flask-moment = "*"
 python-dotenv = "*"
+flask-debugtoolbar = "*"
 
 [dev-packages]
 faker = "*"
