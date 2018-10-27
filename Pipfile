@@ -18,8 +18,11 @@ flask = "*"
 flask-sqlalchemy = "*"
 flask-wtf = "*"
 bootstrap-flask = "*"
+flask-moment = "*"
+python-dotenv = "*"
 
 [dev-packages]
+faker = "*"
 
 [requires]
 python_version = "3.7"

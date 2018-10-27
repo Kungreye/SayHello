@@ -13,7 +13,7 @@ else:
     prefix = 'sqlite:////'
 
 
-dev_db = prefix + os.path.join(os.path.dirname(app.route_path), 'data.db')
+dev_db = prefix + os.path.join(os.path.dirname(app.root_path), 'data.db')
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'my secret key string')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
