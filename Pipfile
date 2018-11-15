@@ -24,6 +24,7 @@ flask-debugtoolbar = "*"
 
 [dev-packages]
 faker = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"
