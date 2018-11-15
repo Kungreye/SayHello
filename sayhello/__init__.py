@@ -17,4 +17,4 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 toolbar = DebugToolbarExtension(app)
 
-from sayhello import views, errors, commands
+from sayhello import views, errors, commands    # noqa
